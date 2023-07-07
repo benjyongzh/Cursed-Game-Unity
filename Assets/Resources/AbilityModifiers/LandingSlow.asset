@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9801f6f5d54651845bc5f8d98501f574, type: 3}
+  m_Name: LandingSlow
+  m_EditorClassIdentifier: 
+  name: LandingSlow
+  description: movespeed slow upon landing from air.
+  icon: {fileID: 0}
+  duration: 0.6
+  elapsedTime: 0
+  hasIntervalEffect: 1
+  effectInterval: 0.1
+  elapsedTimeInterval: 0
+  stackable: 0
+  stacks: 1
+  procChancePercentage: 100
+  initialSlowPercentage: 40
+  intervalSlowPercentage: -8
+  stackingIntervalEffect: 0

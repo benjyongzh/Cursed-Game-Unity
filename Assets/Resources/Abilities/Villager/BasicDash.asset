@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ee2ca0c33351040a6cacecada927f8, type: 3}
+  m_Name: BasicDash
+  m_EditorClassIdentifier: 
+  name: Basic Dash
+  description: 
+  icon: {fileID: 0}
+  abilityIndex: 1
+  cooldown: 0.35
+  swapInTime: 0.3
+  swapOutTime: 0.2
+  currentState: 0
+  canCastInAir: 1
+  windUpTime: 0.1
+  strikeTime: 0.05
+  backswingTime: 0.9
+  animatorLayer: 
+  animationStateName: Attacking
+  animationTransitionTriggerName: AttackPressed
+  numberOfAnimationsPossible: 0
+  attackAnimSpeedParameterName: AnimSpeed
+  modifiersOnSelfOnTrigger:
+  - {fileID: 11400000, guid: 715e8bac0d45ca7409bda2e13d80145a, type: 2}

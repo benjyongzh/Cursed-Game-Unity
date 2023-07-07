@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7c47e821f10664e9249d269d3c1260, type: 3}
+  m_Name: BasicRanged
+  m_EditorClassIdentifier: 
+  name: Basic Ranged
+  description: 
+  icon: {fileID: 0}
+  abilityIndex: 2
+  cooldown: 1
+  swapInTime: 0.4
+  swapOutTime: 0.2
+  currentState: 0
+  minDamage: 10
+  damageScalesWithChargeTime: 0
+  maxDamage: 30
+  attackAngle: 0
+  startingVelocity: 15
+  velocityScalesWithChargeTime: 0
+  maxVelocity: 30
+  maxTravelDistance: 10
+  maxLifetime: 3
+  mass: 3
+  targetPenatration: 1
+  triggerLayers:
+    serializedVersion: 2
+    m_Bits: 1728
+  windUpTime: 0.6
+  strikeTime: 0.1
+  backswingTime: 0.9
+  animatorLayer: 
+  animationStateName: Attacking
+  animationTransitionTriggerName: AttackPressed
+  numberOfAnimationsPossible: 0
+  attackAnimSpeedParameterName: AnimSpeed
+  TriggerOnRelease: 0
+  minChargeTime: 0
+  maxChargeTime: 0
+  modifiersOnSelfDuringAttack: []
+  modifiersOnSelfAfterAttack: []
+  modifiersOnTargetsAfterAttack: []
+  projectile: {fileID: 383495329531116770, guid: 79bd46b840d021f488c17763731c87ae, type: 3}

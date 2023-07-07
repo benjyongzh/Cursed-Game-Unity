@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf67c6c684b4d9640893cbb830eb334f, type: 3}
+  m_Name: BasicMeleeAttack
+  m_EditorClassIdentifier: 
+  name: Basic Melee Attack
+  description: Villager basic attack
+  icon: {fileID: 0}
+  abilityIndex: 0
+  cooldown: 0.25
+  swapInTime: 0.15
+  swapOutTime: 0.1
+  currentState: 0
+  minDamage: 3
+  maxDamage: 8
+  maxRange: 1.25
+  attackAngle: 40
+  multipleTargets: 0
+  windUpTime: 0.25
+  strikeTime: 0.1
+  backswingTime: 0.9
+  animatorLayer: Villager
+  animationStateName: Attacking
+  animationTransitionTriggerName: AttackPressed
+  numberOfAnimationsPossible: 2
+  attackAnimSpeedParameterName: AnimSpeed
+  TriggerOnRelease: 0
+  minChargeTime: 1
+  maxChargeTime: 5
+  modifiersOnSelfDuringAttack: []
+  modifiersOnSelfAfterAttack: []
+  modifiersOnTargetsAfterAttack:
+  - {fileID: 11400000, guid: 25d49b42f7abd234197d806f10370e09, type: 2}
